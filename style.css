@@ -21,6 +21,7 @@
     border: none;
     cursor: pointer;
     width: 270px;
+    height: 50px;
 }
 
 button:hover {
@@ -48,4 +49,81 @@ button:hover {
 .badge {
     height: 250px;
     width: 250px;
+}
+
+.join-colorful-bunch {}
+
+.join-section {
+    background-image: url(./assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 512px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search input {
+    width: 497px;
+    height: 50px;
+    border-style: none;
+    display: block;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.search ::placeholder {
+    padding: 10px 10px;
+    font-size: 18px;
+    font-family: "Work Sans", sans-serif;
+
+}
+
+.search-option {}
+
+
+
+
+
+
+
+@media only screen and (max-width: 640px) {
+    .search-option h1 {
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .search-option input {
+        width: 300px;
+    }
+
+    .btn-primary {
+        width: 150px;
+    }
+
+    .join-section {
+        position: relative;
+        width: 100%;
+    }
+
+    .search-option {
+        position: absolute;
+        bottom: 120px;
+        justify-content: center;
+        left: 85px;
+    }
+
+    .join-section {
+        background-image: url(./assets/news-letter-bg.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 450px;
+    }
+
+    .card button {
+        width: 100%;
+    }
 }
