@@ -31,3 +31,21 @@ button:hover {
     width: 270px;
     /* height: 485px; */
 }
+
+.pl-image-section img {
+    width: 570px;
+}
+
+/* .pl-image-section {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    left: 200px;
+    bottom: 300px;
+} */
+.badge {
+    height: 250px;
+    width: 250px;
+}
