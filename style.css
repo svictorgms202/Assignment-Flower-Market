@@ -1,0 +1,33 @@
+.noto-serif {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.btn-primary {
+    padding: 15px 25px;
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 270px;
+}
+
+button:hover {
+    background-color: #f6752a;
+}
+
+.card {
+    width: 270px;
+    /* height: 485px; */
+}
